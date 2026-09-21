@@ -1,0 +1,118 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Is anyone there?"
+      ],
+      "responses": [
+        "Hello! How can I help you?",
+        "Hi! What can I do for you?",
+        "Hello! Welcome to the college enquiry chatbot."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you",
+        "See you later",
+        "I have to go"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you later!",
+        "Thank you for chatting with me."
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "What courses are available?",
+        "What courses do you offer?",
+        "Which courses are available?",
+        "Tell me about the courses",
+        "What programs are offered?"
+      ],
+      "responses": [
+        "Our college offers various undergraduate and postgraduate programs.",
+        "You can check the college website for the complete list of available courses."
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "How can I get admission?",
+        "What is the admission process?",
+        "How do I apply?",
+        "Tell me about admission",
+        "What are the admission requirements?"
+      ],
+      "responses": [
+        "The admission process depends on the course. Please contact the college admission office for current requirements.",
+        "You can apply through the official admission process of the college."
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "What is the fee structure?",
+        "How much is the college fee?",
+        "Tell me about fees",
+        "What are the fees?",
+        "How much do I have to pay?"
+      ],
+      "responses": [
+        "The fee structure varies depending on the course. Please contact the college office for the current fee details."
+      ]
+    },
+    {
+      "tag": "placements",
+      "patterns": [
+        "Tell me about placements",
+        "Does the college provide placements?",
+        "What about placement?",
+        "Is there a placement cell?",
+        "How are the placements?"
+      ],
+      "responses": [
+        "The college has a placement process to help students with recruitment opportunities.",
+        "The placement cell conducts training and recruitment activities for eligible students."
+      ]
+    },
+    {
+      "tag": "timings",
+      "patterns": [
+        "What are the college timings?",
+        "When does college start?",
+        "When does college end?",
+        "What are the working hours?",
+        "College timing"
+      ],
+      "responses": [
+        "College timings depend on the academic schedule. Please check the current timetable for exact timings."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thank you so much",
+        "That's helpful",
+        "Thanks for the information"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "You're welcome. Have a great day!"
+      ]
+    }
+  ]
+}
