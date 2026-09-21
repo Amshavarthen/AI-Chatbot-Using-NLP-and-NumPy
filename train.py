@@ -136,3 +136,20 @@ print(X[0])
 print()
 print("Example Output:")
 print(Y[0])
+# -----------------------------
+# 10. Train the model
+# -----------------------------
+
+# Calculate weights using NumPy
+weights = np.linalg.pinv(X) @ Y
+
+
+# -----------------------------
+# 11. Save the trained model
+# -----------------------------
+
+np.save("chatbot_model.npy", weights)
+
+print()
+print("Model trained successfully!")
+print("Model saved as chatbot_model.npy")
